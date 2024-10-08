@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>About Us | TELYA TEKSTİL</title>
+  <title>Contact | TELYA TEKSTİL</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -44,10 +44,10 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html"  class="active">About Us</a></li>
+          <li><a href="about.html">About Us</a></li>
           <li><a href="products.html">Products</a></li>
           <li><a href="certificates.html">Certificates</a></li>  
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
           <li><a style="background: #12ACC4; color: #fff; border-radius: 50px;" href="contact.html">Get a Quote</a></li>
           <li></li>
         </ul>
@@ -61,107 +61,98 @@
 
   <main class="main">
 
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-        <div class="container section-title" data-aos="fade-up">
-            <h2>About Us</h2>
-        
-        </div><!-- End Section Title -->
-      <div class="container" data-aos="fade-up">
-        <div class="row gx-0">
-
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-             
-              <h2>Expedita voluptas omnis </h2>
-              <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
-              </p>
-              <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
-              </p>
-              <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
-              </p>
-              
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-<div class="container section-title" data-aos="fade-up">
-    <h2>General Manager</h2>
-
-</div><!-- End Section Title -->
-      <div class="container">
-
-       
-
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="tab-pane fade active show" id="features-tab-1">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Nergiz Ürekli</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End tab content item -->
+   
 
 
-        </div>
 
-      </div>
-
-    </section><!-- /Features Section -->
-
-
-<section id="call-to-action" class="call-to-action section dark-background">
-
-    <div class="container">
-      
-        <div class="content row justify-content-center aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-            <div class="col-xl-10">
-                <div class="text-center">
-
-                    <h5>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis dolore ea aperiam facere cum distinctio.
-                    </h5>
-                    <a class="cta-btn"
-                        href="https://api.whatsapp.com/send/?phone=905380618015&amp;text&amp;type=phone_number&amp;app_absent=0"
-                        target="_blank">Contact Us</a>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+    
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact Us</h2>
+      </div><!-- End Section Title -->
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-12">
+            <form action="forms/contact.php" method="post" enctype="multipart/form-data" class="php-email-form"
+              data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+    
+                <!-- Name-Surname -->
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name-Surname" required="">
                 </div>
-            </div>
+    
+                <!-- Email -->
+                <div class="col-md-6">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+    
+                <!-- Phone Number -->
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="phone" placeholder="Your Phone Number" required="">
+                </div>
+    
+                <!-- Country -->
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="country" placeholder="Your Country" required="">
+                </div>
+    
+                <!-- Company Title -->
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="company" placeholder="Company Title" required="">
+                </div>
+    
+                <!-- Message Box -->
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+    
+                <!-- File Upload (PDF, JPEG) -->
+                <div class="col-12">
+                  <input type="file" class="form-control" name="file" accept=".pdf, .jpeg" placeholder="Upload PDF or JPEG"
+                    required="">
+                </div>
+    
+                <div class="col-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+    
+                  <button type="submit">Send Message</button>
+                </div>
+    
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
         </div>
-    </div>
+      </div>
+    </section><!-- /Contact Section -->
 
-</section>
 
+
+    <section id="call-to-action" class="call-to-action section dark-background">
+    
+      <div class="container">
+    
+        <div class="content row justify-content-center aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+    
+              <h5>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis dolore ea aperiam facere cum distinctio.
+              </h5>
+              <a class="cta-btn"
+                href="https://api.whatsapp.com/send/?phone=905380618015&amp;text&amp;type=phone_number&amp;app_absent=0"
+                target="_blank">Get a Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
   </main>
 
   <section style="border-top: 1px solid #cccccc50;" id="footer" class="footer ">
